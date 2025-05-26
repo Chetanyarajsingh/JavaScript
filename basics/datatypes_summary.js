@@ -35,4 +35,28 @@ console.log(typeof heros)
 console.log(typeof myObj)
 console.log(typeof bigNumber)
 
+// -------------------------------------------
+
+// Memory
+
+// Stack(Primitive), Heap(Non-primitive)
+
+let myName = "chetanya"
+let anotherName = myName
+anotherName = "anyone"
+
+console.log(anotherName)
+console.log(myName)
+
+
+let user = {
+    email: "user@gmail.com",
+    upi: "user@okaxis"
+}
+
+let user2 = user
+user2.email = "user2@email.com"
+
+console.log(user2.email)
+console.log(user.email)
 
